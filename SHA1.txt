@@ -1,0 +1,39 @@
+C:\Users\Administrator\.android>keytool -list -v -keystore debug.keystore
+输入密钥库口令:
+
+*****************  WARNING WARNING WARNING  *****************
+* 存储在您的密钥库中的信息的完整性  *
+* 尚未经过验证!  为了验证其完整性, *
+* 必须提供密钥库口令。                  *
+*****************  WARNING WARNING WARNING  *****************
+
+密钥库类型: jks
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: androiddebugkey
+创建日期: 2021-3-19
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: C=US, O=Android, CN=Android Debug
+发布者: C=US, O=Android, CN=Android Debug
+序列号: 1
+有效期为 Fri Mar 19 15:27:51 CST 2021 至 Sun Mar 12 15:27:51 CST 2051
+证书指纹:
+         MD5:  D3:D1:AF:2B:E3:63:30:24:DB:30:D7:3E:0F:66:B8:2C
+         SHA1: 6D:91:4A:18:25:6B:FA:C3:92:F0:11:DD:8C:EE:50:74:04:4E:C0:F9
+         SHA256: BF:F5:C6:12:D8:51:1D:87:80:7C:1D:1D:84:69:70:EE:38:51:95:C1:AD:46:6C:1C:DF:23:34:77:63:28:CC:8D
+签名算法名称: SHA1withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 1
+
+
+*******************************************
+*******************************************
+
+
+
+Warning:
+JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore debug.keystore -destkeystore debug.keystore -deststoretype pkcs12" 迁移到行业标准格式 PKCS12。
